@@ -1,0 +1,149 @@
+@media (max-width: 700px) {
+    main .container-conversor {
+      width: 650px;
+      height: 600px;
+    }
+  
+    .teclado {
+      margin-right: 15px;
+    }
+  
+    input {
+      width: 350px;
+      height: 40px;
+    }
+  
+    .container-center {
+      min-width: 60%;
+      margin-left: 25px;
+    }
+  
+    .btn-converter {
+      min-width: 90%;
+      height: 70px;
+    }
+  
+    .div-resultado {
+      display: inline;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    main .container-conversor {
+      width: 400px;
+      height: 90vh;
+    }
+  
+    .container-center {
+      min-width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    main .container-conversor .titulo {
+      height: 60px;
+      font-size: 13px;
+    }
+  
+    main .container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .teclado {
+      display: grid;
+      grid-template-columns: repeat(5, 60px);
+      grid-template-rows: repeat(3, 60px);
+      gap: 5px;
+    }
+  
+    .teclaReset {
+      grid-area: 3/4/3/5;
+      grid-column: 4/6;
+    }
+  
+    .btn-converter {
+      min-width: 90%;
+      height: 60px;
+      font-size: 30px;
+      font-weight: bold;
+      margin-right: 25px;
+      transition: 0.4s ease-in-out;
+    }
+  
+    .visor-select {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    input {
+      width: 60%;
+      height: 40px;
+      margin-bottom: 10px;
+      border: none;
+      text-align: right;
+      font-size: 20px;
+    }
+  
+    .btn-converter {
+      min-width: 87%;
+      height: 60px;
+      display: flex;
+      font-size: 33px;
+      font-weight: bold;
+      margin-right: 25px;
+      transition: 0.4s ease-in-out;
+    }
+  
+    .div-resultado {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .rodape {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 415px) {
+    main .container-conversor .titulo {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    main .container-conversor {
+      width: 350px;
+      height: 93vh;
+    }
+  
+    main .container-conversor .titulo {
+      height: 70px;
+      margin: 15px;
+      font-weight: bold;
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    main .container-conversor {
+      width: 330px;
+      height: 94vh;
+    }
+  
+    .rodape {
+      margin-top: 0px;
+    }
+  
+    .teclado {
+      margin-left: 15px;
+    }
+  }
+  
